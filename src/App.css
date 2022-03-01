@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.App .column {
+  width: 30%;
+}
+
+.droppable-col {
+  width: 100%;
+  background-color: #f5f9f9;
+  padding: 10px 10px 0 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin-bottom: 10px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.item.dragging {
+  background-color: #f5f9f9;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 20%;
+}
