@@ -2,3 +2,4 @@
 This application is based on React js.
 User can add the tasks from the input given field.
 After adding the task in the todo section one can drag and drop the tasks to other sections like InProgress and completed.
+Please Add Node module folder before running this application
